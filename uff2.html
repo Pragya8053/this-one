@@ -4,28 +4,40 @@
         <header>
                     <style>
                     body  {
-                          background-image:url("princess.jpg");
-                      }
-                      </style>
+                        background-color:black;
+                        }
+                    .major{
+                        background-color: blue;
+                        opacity: 0.8;
+                        width: 70%;
+                        position:relative;
+                        top: 50%;
+                        left: 15%;
+                        border-radius: 50px;
+                          text-indent: 3pc;
+                         margin-top: 100px;
+                    }
+                    .h1{
+                        color: chartreuse;
+                    }
+                    </style>
                        <font size="5" color="green" face="sagoe script">
             <h1 align=center HEIGHT=500 WIDTH=600 >FILL YOUR INFORMATION</h1>
         </header>
         <body>
         <main>
+          <div class="major">
             <form method="post" action="purv.php">
-
-               <h1 align="center" width=100 height=20>PLEASE ENTER YOUR NAME HERE
+               <h1 align="center" width=100 height=20 style="color: chartreuse;"> PLEASE ENTER YOUR NAME HERE
                <input type="text" name="name"></h1>
-               <h1 align="center" width=100 height=20>YOUR DATE OF BIRTH
-                <input type="text" dateofbirth="dateofbirth"></h1>
-               
-          
-
-
-                <h1 align=center> <input type="submit" value="submit">         <input type="reset" value="reset"></h1>
-                <h3 align=bottom right> PLEASE CHECK WHEATHER U FILLED THE INFORMATION IS CORRECT OR NOT</H3>
+               <h1 align="center" width=100 height=20 style="color: chartreuse;">YOUR DATE OF BIRTH
+                <input type="date" name="dateof"></h1>
+                <h1 align=center> <input type="submit" value="submit">   
+                    <input type="reset" value="reset"></h1>
+                <h3 align=bottom style="color: chartreuse;" right> PLEASE CHECK WHEATHER U FILLED THE INFORMATION IS CORRECT OR NOT</h3>
             </font>
             </form>
+        </div>
         </main>
     </body>
     </head>
